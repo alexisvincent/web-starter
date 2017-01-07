@@ -1,0 +1,11 @@
+{
+  "name": "web-starter-app",
+  "jspm": {
+    "name": "web-starter",
+    "main": "web-starter.js",
+    "devDependencies": {
+      "plugin-babel": "npm:systemjs-plugin-babel@^0.0.18"
+    }
+  },
+  "version": "0.0.1"
+}

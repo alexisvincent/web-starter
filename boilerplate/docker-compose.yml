@@ -1,0 +1,8 @@
+version: "2.1"
+services:
+  web:
+    image: alexisvincent/web-starter
+    volumes:
+      - ./public:/usr/app/public/
+    ports:
+      - "3000:443"
